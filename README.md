@@ -1,22 +1,23 @@
-# 🏟️ Ejercicio Integral: “Integración de Bases de Datos en Fútbol
-Objetivo General
+#  Ejercicio Integral: Integración de Bases de Datos
+## Objetivo General
 Demostrar habilidades en:
 
-Manejo de Base de Datos SQL y Git (incluyendo la documentación de comandos usados en la terminal)
-Creación y validación de nuevas tablas en Postgres mediante un proceso Write – Audit – Publish
-Población de la tabla utilizando datos de un CSV (incluido en el repositorio)
-Generación de queries 
-Nota:
+- Manejo de Base de Datos SQL y Git (incluyendo la documentación de comandos usados en la terminal)
+- Creación y validación de nuevas tablas en Postgres mediante un proceso Write – Audit – Publish
+- Población de la tabla utilizando datos de un CSV (incluido en el repositorio)
+- Generación de queries
+
+> **Nota:**
 Está permitido y se alienta el uso de recursos en internet, incluyendo herramientas de IA como ChatGPT, para avanzar en el ejercicio y resolver dudas. Verifica siempre el código generado para evitar errores.
 
 
-🧩 1. Uso de Git
-- Crea un directorio con tu nombre, siguiendo el formato proyecto_nombre , por ejemplo: proyecto_jose
-- Inicializa un repositorio Git dentro del directorio:
-- Documenta todos los comandos utilizados en un archivo llamado comandos_utilizados.txt
+### 1. Uso de Git
+- Crea un directorio con tu nombre, siguiendo el formato ` proyecto_nombre` , por ejemplo: proyecto_jose
+- Inicializa un repositorio Git dentro del directorio
+- Documenta todos los comandos utilizados en un archivo llamado `comandos_utilizados.txt`
 
 
-🎯 2. Creación y Población de Nueva Tabla en Postgres
+### 2. Creación y Población de Nueva Tabla en Postgres
 
 Diccionario de Datos (archivo futbol_stats.csv):
 - id: Identificador único del jugador
@@ -39,7 +40,7 @@ Migraciones:
   - futbol_data_staging: para carga inicial
   - futbol_data: tabla de producción con id como PRIMARY KEY y UNIQUE
 
-✅ 3. Proceso Write – Audit – Publish
+### 3. Proceso Write – Audit – Publish
 
 Write:
 - Insertar cada fila del CSV en futbol_data_staging
