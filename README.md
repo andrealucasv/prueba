@@ -82,13 +82,7 @@ Implementa 4 auditorías de validación:
 - Define el query para limpiar la tabla de staging
 - **[#TODO: Completa los queries de publicación]**
 
-### 4. Ejecución y Pruebas
-
-- Configura tu conexión a Postgres en `DATABASE_URL`
-- Ejecuta el script para probar el proceso completo
-- Verifica que los datos se carguen correctamente
-
-### 5. Entrega Final
+### 4. Entrega Final
 
 - **Commits:** Realiza commits descriptivos de tu progreso
 - **Push:** Sube tus cambios a tu fork en GitHub
@@ -96,6 +90,4 @@ Implementa 4 auditorías de validación:
 
 
 
-CREATE TABLE futbol_data (
-    id INT PRIMARY KEY,
-    nombre VARCHAR(100) NOT
+Buena suerte.
